@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hasil Analisis</title>
+</head>
+<body>
+    <h2>Hasil Deteksi Serangan</h2>
+
+    {% for key, value in result.items() %}
+        <p>{{ key }} : {{ value }}</p>
+    {% endfor %}
+
+    <br>
+    <a href="/">Kembali</a>
+</body>
+</html>
